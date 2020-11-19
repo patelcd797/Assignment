@@ -1,0 +1,51 @@
+.div-main{
+    align-items: center;
+    width: 100%;
+    height: 45rem;
+    border-radius: 5rem;
+ }
+ 
+ .div-header{
+    height: 4rem;
+    width: 100%;
+    margin-top: 1%;
+    background-color: #000000;
+    border-radius: 0.5rem;
+ }
+ .div-profile{
+     display: inline-block;
+     color: #ffffff;
+     margin-left: 1rem;
+     font-weight: 500;
+     padding-top: 1.5rem;
+ }
+ .div-float{
+     margin-right: 1rem;
+     float: right;;
+     display: inline-block;
+     color: #ffffff;
+     font-weight: 400;
+     padding-top: 1.5rem;
+ }
+ .div-h1{
+     text-align: center;
+ }
+ h1{
+     margin-top: 20%;
+     font-weight: 1000;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 5rem;
+     letter-spacing: 0.2rem;
+ }
+ a{
+     color: #ffffff;
+     text-decoration: none;
+ }
+.login-signup{
+    opacity: 1;
+    display: inline block;
+}
+.profile-logout{
+    opacity: 1;
+    display: inline block;
+}

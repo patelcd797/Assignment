@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign In</title>
+        <link rel="stylesheet" href="./signin.css">
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.2/js/toastr.min.js">
+        </script>
+    </head>
+    <body>
+        <div class="div-main">
+            <div>
+              <div class="div-title special" >
+                <a href="../signup/signup.html">Sign Up</a></div>
+              <div class="div-title ">
+                <a href="./signin.html">Sign IN</a>
+              </div>
+            </div>
+            <div class="div-sub">
+              <form action="./login" method="POST" id="form2"> 
+                <div>
+                  <label for="email">Email Address</label>
+                  <input type="email" name="email" id="email" placeholder="Email Address">
+                </div>
+                <div>
+                  <label for="password">Password</label>
+                  <input type="password" name="password" id="password" placeholder="Password">
+                </div>
+                <div style="display: block;">
+                  <div class="forgot-password">
+                    <a href="../forgot-password/forgot-password.html">Forgot Password?</a>
+                  </div>
+                  
+                </div>
+                <div>
+                    <input type="submit" value="Login" class="submit-button">
+                </div>
+                
+              </form>
+            </div>
+            
+          </div>
+         
+          <script src="./signin.js"></script>
+    </body>
+</html>

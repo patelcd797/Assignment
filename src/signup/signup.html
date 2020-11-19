@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up</title>
+        <link rel="stylesheet" href="./signup.css">
+        <script src="signup.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    </head>
+    <body>
+        <div class="div-main">
+            <div>
+              <div class="div-title" >
+                <a href="./signup.html">Sign Up
+                </a>
+                </div>
+              <div class="div-title special" >
+               <a href="../signin/signin.html">Sign IN</a> 
+              </div>
+            </div>
+            <div class="div-sub">
+              <form  action="/register" id='form1' method="POST">
+                <div>
+                  <label for="fname">First Name</label>
+                  <input type="text" name="fname" id="fname" placeholder="First Name">
+                </div>
+                <div>
+                  <label for="lname">Last Name</label>
+                  <input type="text" name="lname" id="lname" placeholder="Last Name">  
+                </div> 
+                <div>
+                  <label for="email">Email Address</label>
+                  <input type="email" name="email" id="email" placeholder="Email Address">
+                </div>
+                <div>
+                  <label for="password">Password</label>
+                  <input type="password" name="password" id="password" placeholder="Password">
+                </div>
+                <div>
+                  <input type="submit"  value="Create An Account" class="submit-button">
+                </div>
+                
+              </form>
+            </div>
+            
+          </div>
+    </body>
+</html>

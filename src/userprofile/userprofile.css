@@ -1,0 +1,59 @@
+.div-main{
+    align-items: center;
+    margin-left: 35%;
+    margin-top: 10rem;
+    width: 30%;
+    height: 30rem;
+    -webkit-box-shadow: 0 0 1rem 0.1rem rgb(206, 205, 205);
+    -moz-box-shadow: 0 0 1rem 0.1rem rgb(206, 205, 205);
+ }
+.div-sub{
+    margin: 1.5rem 1rem;
+}
+.div-sub1{
+    text-align: center;
+    margin-top: 2.5rem;
+    padding-top: 0.5rem;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+}
+
+.div-title{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    height: 2rem;
+    padding-top: 0.5rem;
+}
+.input-box{
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    margin-top: 0.1rem;
+    height: 3rem;
+    border-color: wheat;
+    padding-left: 0.5rem;
+    background-color: whitesmoke;
+}
+
+.submit-button{
+    text-decoration: none;
+    background-color: #1ba94c;
+    border: none;
+    float: right;
+    width: 45%;
+    height: 3rem;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    color: white;
+    box-shadow: 0 4px 12px 0 rgba(27,169,76);
+    border-color:#1ba94c;
+}
+.image-label{
+    margin-right: 2rem;
+}
+.image{
+    margin-bottom: 2rem;
+}

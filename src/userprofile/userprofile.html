@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create User Profile</title>
+        <link rel="stylesheet" href="./userprofile.css">
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    </head>
+    <body>
+        <div class="div-main">
+            <div class="div-sub1">
+              <h1>Create User Profile</h1>
+            </div >
+            <div class="div-sub">
+              <form action="/profile" method="POST" id="form3" enctype="multipart/form-data">
+                <div>
+                  <label for="uname">User Full Name</label>
+                  <input type="text" name="uname" id="uname" placeholder="Full Name" class="input-box" required>
+                </div>
+                <div>
+                  <label for="age">Age</label>
+                  <input type="number" name="age" id="age" placeholder="Age" class="input-box" min=1 required>  
+                </div> 
+                <div style="margin-bottom: 0.5rem;">
+                  <label for="gender" style="margin-bottom: 2rem;" id="gender" >Gender</label><br>
+                  <input type="radio" id="male" name="gender" value="male" checked >
+                  <label for="male" >Male</label><br>
+                  <input type="radio" id="female" name="gender" value="female" >
+                  <label for="female">Female</label><br>
+                  <input type="radio" id="other" name="gender" value="other">
+                  <label for="other">Other</label>
+                </div>
+                <div class="image">
+                  <label for="picture" class="image-label" id="image">Profile Picture</label>
+                  <input type="file" id="myfile" name="myfile" required>
+                </div>
+                <div>
+                  <input type="submit" value="Create User Profile" class="submit-button">
+                </div>
+                
+              </form>
+            </div>
+            
+          </div>
+
+
+          <script src="userprofile.js"></script>
+    </body>
+</html>
